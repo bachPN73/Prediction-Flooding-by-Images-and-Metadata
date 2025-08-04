@@ -4,8 +4,36 @@
 
 ![Image](https://multimediaeval.github.io/2017-Multimedia-Satellite-Task/Preview_DIRSM.png)
 
-#### We thank
-##### MediaEval 2017 and Pham Quang Nhat Minh
-
 ### Evaluation
 #### The evaluation metric for this competition is MAP@K. K=250
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### We thank
+##### MediaEval 2017 and Pham Quang Nhat Minh
