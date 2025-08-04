@@ -6,7 +6,10 @@
 
 ### Evaluation
 #### The evaluation metric for this competition is MAP@K. K=250
+#### This leaderboard is calculated with approximately 60% of the test data. The final results will be based on the other 40%, so the final standings may be different
+
 ### Data set
+##### We thank: MediaEval 2017 and Pham Quang Nhat Minh
 ```
 /kaggle/input/2025-sum-dpl-302-m/
 │
@@ -19,9 +22,7 @@
 ├── test.csv                            
 
 ```
-#### We thank
-##### MediaEval 2017 and Pham Quang Nhat Minh
-
+### Method
 ```
 ViT (frozen) + LoRA  →  Linear + GELU → Dropout → img_feat
 BERT (frozen) + LoRA →  Linear + GELU → Dropout → text_feat
@@ -30,3 +31,4 @@ BERT (frozen) + LoRA →  Linear + GELU → Dropout → text_feat
                Classifier → Output (Sigmoid)
 
 ```
+### Result
