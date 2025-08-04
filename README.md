@@ -6,34 +6,27 @@
 
 ### Evaluation
 #### The evaluation metric for this competition is MAP@K. K=250
+### Data set
+```
+/kaggle/input/2025-sum-dpl-302-m/
+│
+├── devset_images/                       
+│   └── devset_images/
+├── devset_images_metadata.json       
+├── devset_images_gt.csv            
+├── testset_images/                   
+│   └── testset_images/
+├── test.csv                            
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 #### We thank
 ##### MediaEval 2017 and Pham Quang Nhat Minh
+
+```
+ViT (frozen) + LoRA  →  Linear + GELU → Dropout → img_feat
+BERT (frozen) + LoRA →  Linear + GELU → Dropout → text_feat
+           Concatenate [img_feat, text_feat]
+                         ↓
+               Classifier → Output (Sigmoid)
+
+```
