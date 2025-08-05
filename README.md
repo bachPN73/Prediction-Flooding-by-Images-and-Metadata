@@ -7,9 +7,11 @@
 ### Evaluation
 #### The evaluation metric for this competition is MAP@K. K=250
 #### This leaderboard is calculated with approximately 60% of the test data. The final results will be based on the other 40%, so the final standings may be different
-
-### Data set
 ##### We thank: MediaEval 2017 and Pham Quang Nhat Minh
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Data set
+
+
 ```
 /kaggle/input/2025-sum-dpl-302-m/
 │
