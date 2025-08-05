@@ -30,14 +30,6 @@
 #### Label: devset_images_gt.csv, test.csv
 
 ### Method
-```
-ViT (frozen) + LoRA  →  Linear + GELU → Dropout → img_feat
-BERT (frozen) + LoRA →  Linear + GELU → Dropout → text_feat
-           Concatenate [img_feat, text_feat]
-                         ↓
-               Classifier → Output (Sigmoid)
-
-```
 #### Combines the power of:
 - Vision Transformer (ViT) for extracting features from images.
 - DeBERTa-v3-small for understanding the context of image descriptions.
