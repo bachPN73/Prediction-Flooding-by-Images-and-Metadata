@@ -32,9 +32,9 @@ testset_images: 1320 images
 #### Label: devset_images_gt.csv, test.csv
 
 #### No Flood
-!([Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20142821.png))
+![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20142821.png)
 #### Flood
-!([Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20142826.png))
+![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20142826.png)
 
 
 ### Method
