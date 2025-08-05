@@ -28,8 +28,8 @@
 - devset_images: 5280 images
 - testset_images: 1320 images
 #### Image: devset_images, testset_images
-#### Metadata: devset_images_metadata.json, test.csv (image_id, title, description, user_tags, label)
-#### Label: devset_images_gt.csv, test.csv
+#### Metadata: devset_images_metadata.json, test.csv (image_id, title, description, user_tags)
+#### Label: devset_images_gt.csv
 
 #### No Flood
 ![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20142821.png)
