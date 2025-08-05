@@ -44,6 +44,6 @@
 #### Applies multi-modal deep learning to fuse visual and textual features, leading to better accuracy than single-modality models.
 
 ### Result
-- Achieved 0.91 private and public scores on the ¬ood image classi«cation task
+- Achieved 0.91 private and public scores on the flood image classi«cation task
 using mAP@250
 ![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20143245.png)
