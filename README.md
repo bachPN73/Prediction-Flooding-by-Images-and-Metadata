@@ -9,9 +9,10 @@
 #### This leaderboard is calculated with approximately 60% of the test data. The final results will be based on the other 40%, so the final standings may be different
 ##### We thank: MediaEval 2017 and Pham Quang Nhat Minh
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Introduction
+#### Fine-tuned ViT + DeBERTa on flood image dataset using multi-modal deep learning to combine visual and textual features, achieving higher accuracy than single-modality baselines.
+
 ### Data set
-
-
 ```
 /kaggle/input/2025-sum-dpl-302-m/
 │
@@ -24,6 +25,10 @@
 ├── test.csv                            
 
 ```
+Image: /devset_images/ và /testset_images/
+Metadata: devset_images_metadata.json, test.csv (image_id, title, description, user_tags, label)
+Ground truth: devset_images_gt.csv
+
 ### Method
 ```
 ViT (frozen) + LoRA  →  Linear + GELU → Dropout → img_feat
