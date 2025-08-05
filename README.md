@@ -25,9 +25,9 @@
 ├── test.csv                            
 
 ```
-Image: /devset_images/ và /testset_images/
-Metadata: devset_images_metadata.json, test.csv (image_id, title, description, user_tags, label)
-Ground truth: devset_images_gt.csv
+#### Image: devset_images, testset_images
+#### Metadata: devset_images_metadata.json, test.csv (image_id, title, description, user_tags, label)
+#### Label: devset_images_gt.csv, test.csv
 
 ### Method
 ```
@@ -38,4 +38,10 @@ BERT (frozen) + LoRA →  Linear + GELU → Dropout → text_feat
                Classifier → Output (Sigmoid)
 
 ```
+#### Combines the power of:
+- Vision Transformer (ViT) for extracting features from images.
+- DeBERTa-v3-small for understanding the context of image descriptions.
+#### Applies multi-modal deep learning to fuse visual and textual features, leading to better accuracy than single-modality models.
 ### Result
+- Achieved 0.91 private and public scores on the ¬ood image classi«cation task
+using mAP@250
