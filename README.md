@@ -25,8 +25,8 @@
 ├── test.csv                            
 
 ```
-devset_images: 5280 image
-testset_images: 
+devset_images: 5280 images
+testset_images: 1320 images
 #### Image: devset_images, testset_images
 #### Metadata: devset_images_metadata.json, test.csv (image_id, title, description, user_tags, label)
 #### Label: devset_images_gt.csv, test.csv
